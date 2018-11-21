@@ -19,7 +19,7 @@ https://maven.apache.org/download.cgi
 A step by step series how to install the game
 ```
 git clone https://github.com/anshulkatta/Half-life
-cd Half-Life/HL/
+cd Half-Life
 mvn install
 cd target/classes
 java com.hl.main.GameEngine
