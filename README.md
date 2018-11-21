@@ -68,9 +68,6 @@ for PATCH - #PATCH JIRA-Number (Agile JIRA Link)
 
 eg. #PATCH - AG-12344 https://agile-jira.atlassian.com/browse/AG-12344
 
-Entry Point of Game
-> GameEngine
-
 
 # Versioning
 
