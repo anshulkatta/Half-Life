@@ -1,12 +1,5 @@
-# Half-Life
-Command Line RPG Game based on Half Life 2 Game
-
-
 # Half-life
 Command Line RPG Game based on Half-Life 2
-
-Half Life Command Line
-Half Life Game on CMD 
 
 # Getting Started
 
