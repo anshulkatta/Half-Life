@@ -1,4 +1,4 @@
-# Halfe-Life
+# Half-Life
 Command Line RPG Game based on Half Life 2 Game
 
 
