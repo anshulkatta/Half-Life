@@ -42,6 +42,9 @@ If you dont enter correct numbers You will get a hit
 Everytime you enter correct numbers Your XP will increase and
 Enemy will be hit
 
+Regarding Save, the gave is autosave
+character XP is saved after game has ended
+
 # Built With
 
 - Java - Primary Language
