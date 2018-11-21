@@ -88,22 +88,23 @@ public class GameEngine {
 	 */
 	private void startMusic() {
 		Thread t;
-		try {
-			t = new Thread(new Runnable() {
-				public void run() {
+		t = new Thread(new Runnable() {
+			public void run() {
+				try {
 					new JFXPanel();
 					String music = "triageAtDawn.mp3";
 					URL url = getClass().getResource("/triageAtDawn.mp3");
 					Media hit = new Media(url.toString());
 					mediaPlayer = new MediaPlayer(hit);
 					mediaPlayer.play();
+				} catch (Exception e) {
+					// Dont play music then
+					return;
 				}
-			});
-			t.start();
-		} catch (Exception e) {
-			// Dont play music then
-			return;
-		}
+			}
+		});
+		t.start();
+
 	}
 
 	/**
