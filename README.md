@@ -20,7 +20,7 @@ A step by step series how to install the game
 ```
 git clone https://github.com/anshulkatta/Half-life
 cd Half-Life
-mvn install
+mvn install -DskipTests
 cd target/classes
 java com.hl.main.GameEngine
 ```
