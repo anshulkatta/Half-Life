@@ -27,7 +27,7 @@ java com.hl.main.GameEngine
 
 # Installing & Running from jar
 ```
-java -jar com.hl-1.jar
+java -jar target/com.hl-1.jar
 ```
 
 # Running the tests
